@@ -3,12 +3,11 @@ import Vue from './vue'
 const vm = new Vue({
   el: '#app',
   data: {
-    msg: 'Hello',
+    msg: 'Hello My Vue',
     count: 12,
   }
 })
 
-console.log(vm)
+console.log(vm.msg)
 // vm.msg = { a: 'test' }
-debugger
-vm.msg = '123'
+// vm.msg = '123'

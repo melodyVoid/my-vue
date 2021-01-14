@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #454d64;
+}
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app {
+  text-align: center;
+}
+
+#app > section {
+  /* border: 1px solid #000; */
+  margin-bottom: 20px;
+}
+
+.prop {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: #4569d4;
+}
+
+input {
+  width: 200px;
+  height: 32px;
+  font-size: 16px;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+code {
+
+}

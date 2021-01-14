@@ -9,6 +9,7 @@ export default class Vue {
     this.$data = data || {}
     this.$el = typeof el === 'string' ? document.querySelector(el) : el
     // 2.把 data 中的成员转换成 getter/setter ，注入到 vue 实例中
+
     this._proxyData(this.$data)
     // 3.调用 observer 对象，监听数据的变化
     new Observer(this.$data)
